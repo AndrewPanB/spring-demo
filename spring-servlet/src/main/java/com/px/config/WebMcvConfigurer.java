@@ -16,7 +16,7 @@ import javax.servlet.ServletRequestListener;
 public class WebMcvConfigurer implements WebMvcConfigurer {
 
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(getHandlerInterceptor()).addPathPatterns("/**");
+//        registry.addInterceptor(getHandlerInterceptor()).addPathPatterns("/**");
     }
 
     @Bean
