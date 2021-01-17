@@ -24,15 +24,12 @@
             <version>1.5.9.RELEASE</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
-
-
     </dependencies>
 
 
@@ -47,7 +44,6 @@
                 <configuration>
                     <archive>
                         <addMavenDescriptor>false</addMavenDescriptor>
-
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
@@ -55,7 +51,6 @@
                     </archive>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 
